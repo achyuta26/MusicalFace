@@ -1,6 +1,7 @@
 # MusicalFace
 
-Musical Face is an app which lets you play songs from Spotify based on your facial expression.
+
+**Musical Face is an app which lets you play songs from Spotify based on your facial expression.**
 
 
 
@@ -9,6 +10,9 @@ Musical Face is an app which lets you play songs from Spotify based on your faci
 Your Expression             |  Neural Networks	       | Spotify songs based on expression |	
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/achyutapnK/MusicalFace/blob/master/images/happy_face.jpg)  |  ![](https://cdn-images-1.medium.com/max/1600/1*DW0Ccmj1hZ0OvSXi7Kz5MQ.jpeg)	|  ![](https://github.com/achyutapnK/MusicalFace/blob/master/images/Spotify_logo.png)
+
+
+
 
 
 
@@ -29,7 +33,7 @@ A happy face unlocks 10 happy songs on Spotify for the user looking in his/her w
 
 
 
-##Dataset
+## Dataset
 *The data source for images comes from a very common challenge from [Kaggle](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data) for Facial Expression Recognition of B&W images. 
 
 *The song dataset comes from [MoodyLyrics: A Sentiment Annotated Lyrics Dataset](https://dl.acm.org/citation.cfm?id=3059340). This serves as data for training the RNN model.
@@ -76,7 +80,7 @@ BatchNormalization at all layers
 
 
 
-#### RNN Architecture for Songs' mood classification based on lyrics
+## RNN Architecture for Songs' mood classification based on lyrics
 
 Since the labelled dataset of songs had 4 emotions, angry, happy, sad and relaxed, the above 7 emotions were clubbed as follows:
 
@@ -135,7 +139,7 @@ Attached is a screenshot of the expected output after running prediction.py on t
 
 ![prediction.py](https://github.com/achyutapnK/MusicalFace/blob/master/images/prediction.png)
 
-##References:
+## References:
 *[Convolutional Neural Networks for Facial Expression Recognition](http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf)
 
 
